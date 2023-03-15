@@ -13,8 +13,8 @@ let jo = 0;
 
 while (jo <= 3) {
   let number = parseInt(prompt("Inserisci un numero")); 
-  jo = jo + number;
+  somma = somma + number;
   jo++
 }
 
-console.log(`La somma di tutti i numeri è: ${jo}`);
+console.log(`La somma di tutti i numeri è: ${somma}`);
